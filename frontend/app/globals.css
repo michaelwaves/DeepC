@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply md:text-3xl text-2xl font-bold text-p-3
+  }
+
+  h2 {
+    @apply md:text-sm text-sm font-semibold text-p-4
+  }
+
+  h3 {
+    @apply md:text-2xl text-xl font-light text-gray-400
+  }
+
+  p {
+    @apply md:text-xs text-xs font-light text-gray-400
+  }
+}
+
+@layer components {
+  .trans {
+    @apply transition-all duration-100
+  }
+}
