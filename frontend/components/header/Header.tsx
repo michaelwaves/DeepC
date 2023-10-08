@@ -3,6 +3,9 @@ import Link from 'next/link'
 import { HiOutlineLightBulb } from 'react-icons/hi'
 import TranslatorButton from './TranslatorButton'
 import AccountSelector from './AccountSelector'
+import MenuButton from './MenuButton'
+import Links from './Links'
+import Overlay from './Overlay'
 export default function Header() {
     return (
         <div id="header" className='h-16 w-full md:w-[clamp(500px,90vw,1200px)] p-2 flex justify-between items-center'>
@@ -19,8 +22,10 @@ export default function Header() {
                     <HiOutlineLightBulb class="w-6 h-6 " />
                 </button>
                 <AccountSelector />
-
+                <MenuButton />
             </div>
+            <Links />
+            <Overlay />
         </div>
     )
 }
