@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "deepc-401411",
+  "private_key_id": "dc72b843b9af9f40c0b53276d2dadd32e0427cf5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIescJl170NB3I\ncvesx6tbSelM8s6P81EorW0NBsO8Jc9a+U6g01WuWTARHFDnlrfaxST5Wc5Nt2H0\nw1fqFLOVDnrVut/Svm6wueGGf8uyc3xiTqKI15vfKFWP3Kyeh2PxbCJWKaZ06I7D\n/MZLqxahiIrBdXClNValHy2K6ri0GpVJCUbnM/yrgAyNkTejX0xWfgkZdNXi8kcA\nns2jKYIvzBpdQZ1vSCYzoNUjhXRO21RjUF8yX4xqfAFGNTFoVSP8LBikHOhY8r9P\nQqcFL3u0T8ekZuXVTHni5Ke1VM6ihe4S0BNNpYecOyk/xubM5PwdgycdTbWlfNc5\nB9h0/OnnAgMBAAECggEATuOpgQe00MnVUnSTK8Vik8iw6pu9Vv37WNNtzytzSI1k\nXDswiq6+z52/AWywFYHElWzwkMKbIQ/hlwxrguxkgmoxQfuIagiPzDFJIsEVKgKx\n1ol1Af4+EwFvMe43ayaB2JWhqWA4ZVbCHzNP4KTRgf0WBOyuyAQGNXHgXQLibdQ4\nxxkkTmgiwmHd0lEj7G37iaqmGlla9M11nLGiqzhdPbWYinQ55mZYyYNPu0W/oY2l\nM7urcswmN97Pzt8UPsHydvqeW39jmofIi/f1Ypj+0+VLxIwQs8wKSIJRmqZ+gOR3\nrW8DnySKRjqhoFz2V9Mc+9F9bg6wo9XpfWlmu/+f4QKBgQD8WgnSTjgcUrANSPzJ\nCnPrhP/upUgbvpGjZFPB/yHGC9MSu0qcf4S+cFiNBEbl3RpuwzTPaXMAt28Jx5rY\nTbTbk+XPm0Ju2y5YBxcat5UFxj+haQko288FTa7J/Hnpj5h08UTtzD0tMsNBC0ic\nHdIU8Px/ekqbaKob0PgHcZlrdwKBgQDLYMJA1ZJ5DejDI9T7qQL24klnmq+Rbltu\n8qIb7AdA/S5IvdJPnpH9AJ5YCeg2/zdieE2FYITSQh/C4E2BFJvNvmDGvs16wLWI\nT4A9QE7GclNMBkKJWNvJxLk+ueqOweBVn8jcPqsyDWETuUwGmUKkeh5QDEYXSL1b\nSve5Dl0xEQKBgEzVVTw1GJx3CKdi26SSjCzfd9U/ea8I3Or0txPQDIZyPzfq0pLH\nuLELH8r/zF5cbZnf0Yp9PsivER3XKmxFbJWWeFg3m4iJL5kZv40g7Dyv2dvZUTKh\nimzA9EEHoE7eq7qfYy9MCixi0lRRjTALXFWH8jkWEPU0bua9P2d0zRONAoGBALHC\ntsb4ZXgNYj792LDGPuMPUl2N5JrWvHAy/uIs4QI6yPOnhmU1EiDzI3OL5T38wKn+\nwLMtc6pbRWuNpfCG1M918RyFtQ/v1Dt6UXo39SKa1peCeTGXSzQGEGv1EEEK0EvG\nx0dKN1QeQZV9xieWWZttaYVJ1RGQ8IEU+4TyOx4hAoGBAMs2/E0FLq+Gogx5FBai\njB1Zj2V6pSMmIKxWph6MqUDXRSMjcCiyt71QYmVpvqvPNWV+t2sJLmEPe4zKwExr\n16TDzK0ZTtGpShchuAiHaLvcNyI+WrIf7k/Jr7Yafic3t+9gGT9jAUuzkCb5rth6\nF68jpO7XBblT+rwNC6EKPga7\n-----END PRIVATE KEY-----\n",
+  "client_email": "deepccloudtranslate@deepc-401411.iam.gserviceaccount.com",
+  "client_id": "115577677424101684494",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/deepccloudtranslate%40deepc-401411.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
