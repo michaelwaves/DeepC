@@ -1,7 +1,7 @@
 import { type NextRequest } from 'next/server'
 const { Translate } = require('@google-cloud/translate').v2;
 
-const translate = new Translate();
+const translate = new Translate({ key: process.env.GOOGLE_TRANSLATE_API_KEY });
 
 export async function POST(req: NextRequest) {
   const { text, target } = await req.json()
@@ -17,3 +17,5 @@ export async function POST(req: NextRequest) {
 
   return Response.json(translations)
 }
+
+//https://cloud.google.com/nodejs/docs/reference/translate/latest/translate/v2.translate

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { HeaderData } from '@/data/HeaderData'
-export default function Links() {
+export default function Links({ onClick }: { onClick: () => void }) {
     const links = HeaderData.map((link) => {
         return (
             <Link href={link.link}>
@@ -9,9 +9,11 @@ export default function Links() {
         )
     })
     return (
-        <div className='fixed top-0 left-0 z-30'>
-            <div className='fixed top-0 left-0 overflow-y-scroll'>
-                <div className='z-20 h-full w-60 flex relative flex-col gap-4 bg-white rounded-xl'>
+        <div className='fixed top-0 left-0 z-30'
+            onClick={onClick}
+        >
+            <div className='fixed top-0 left-0'>
+                <div className='z-20 h-full w-60 overflow-y-scroll flex relative flex-col gap-4 bg-white rounded-md p-4'>
                     {links}
                 </div>
             </div>

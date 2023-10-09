@@ -1,3 +1,4 @@
+"use client"
 import Image from 'next/image'
 import Link from 'next/link'
 import { HiOutlineLightBulb } from 'react-icons/hi'
@@ -6,9 +7,11 @@ import AccountSelector from './AccountSelector'
 import MenuButton from './MenuButton'
 import Links from './Links'
 import Overlay from './Overlay'
+import { useState } from 'react'
 export default function Header() {
+    const [menuOpen, setMenuOpen] = useState(false)
     return (
-        <div id="header" className='h-16 w-full md:w-[clamp(500px,90vw,1200px)] p-2 flex justify-between items-center'>
+        <div id="header" className='bg h-16 w-full md:w-[clamp(500px,90vw,1200px)] p-2 flex justify-between items-center'>
             <Link href='/' className='hover:underline flex flex-row gap-2 items-center justify-center'>
                 <Image src='/logo_red.svg' alt='logo' width={50} height={50} />
                 <h1 className=''>DeepC</h1>
@@ -22,10 +25,14 @@ export default function Header() {
                     <HiOutlineLightBulb class="w-6 h-6 " />
                 </button>
                 <AccountSelector />
-                <MenuButton />
+                <MenuButton onClick={() => setMenuOpen(true)} />
             </div>
-            <Links />
-            <Overlay />
+            {menuOpen &&
+                <>
+                    <Links onClick={() => setMenuOpen(!menuOpen)} />
+                    <Overlay onClick={() => setMenuOpen(!menuOpen)} />
+                </>
+            }
         </div>
     )
 }

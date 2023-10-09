@@ -26,7 +26,7 @@ export default function TranslateNavbar() {
     ]
     const navComponents = pages.map((page, i) => {
         return (
-            <div className='relative flex flex-row gap-2' key={i}
+            <div className='bg relative flex flex-row gap-2' key={i}
                 onClick={() => setIndex(i)}
             >
                 <div className={` flex flex-row w-40 py-2 h-16 rounded-md border-[1px] border-gray-300`}>
@@ -44,7 +44,7 @@ export default function TranslateNavbar() {
         )
     })
     return (
-        <div className='relative flex flex-row gap-2'>
+        <div className='relative flex flex-row gap-2 w-[clamp(500px,90vw,1200px)]'>
             {navComponents}
         </div>
     )

@@ -17,7 +17,7 @@ export default function TranslateText() {
         setTranslation(await response.text())
     }
     return (
-        <div className="h-80 w-[clamp(500px,90vw,1200px)] rounded-md border-gray-300 border-[1px]">
+        <div className="h-80 w-[clamp(500px,90vw,1200px)] rounded-md border-gray-300 border-[1px] bg">
             <div className="flex flex-row h-16 w-full border-b-[1px] border-gray-300">
                 <div className="w-full px-4 flex items-center justify-between">
                     <h2>{!chinese ? "English" : "Chinese"}</h2>
@@ -46,7 +46,11 @@ export default function TranslateText() {
                 </div>
                 <textarea className='w-full h-full active:border-p-3 resize-none p-4' value={translation} onChange={(e) => { setTranslation(e.target.value), console.log(translation) }} />
             </div>
-            <button onClick={() => handleTranslate(text, "zh")}>Translate</button>
+            <div className='w-full flex justify-center py-2'>
+                <button
+                    className=' bg-p-3 py-2 px-4 rounded-md text-white hover:bg-p-5 trans'
+                    onClick={() => handleTranslate(text, "zh")}>Translate</button>
+            </div>
         </div>
     )
 }

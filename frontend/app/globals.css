@@ -24,4 +24,8 @@
   .trans {
     @apply transition-all duration-100
   }
+
+  .bg {
+    @apply bg-white dark:bg-black
+  }
 }
