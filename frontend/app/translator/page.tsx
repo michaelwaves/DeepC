@@ -1,8 +1,7 @@
+import TranslateText from "@/components/translator/TranslateText"
 
-export default function Page() {
-    return (
-        <div>
-
-        </div>
-    )
+export default function Home() {
+  return (
+    <TranslateText />
+  )
 }

@@ -8,7 +8,7 @@ import { useState } from 'react'
 export default function AccountSelector() {
     const [open, setOpen] = useState(false)
     return (
-        <div className='relative'>
+        <div className='relative md:block hidden'>
             <button
                 onClick={() => setOpen(!open)}
                 className='h-10 flex flex-row items-center gap-2 p-2 rounded-md border-[1px] border-gray-300 trans hover:bg-red-100'>

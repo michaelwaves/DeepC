@@ -11,7 +11,7 @@ import { useState } from 'react'
 export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
-        <div id="header" className='bg h-16 w-full md:w-[clamp(500px,90vw,1200px)] p-2 flex justify-between items-center'>
+        <div id="header" className='m-auto bg h-16 w-full md:w-[clamp(500px,90vw,1200px)] p-2 flex justify-between items-center'>
             <Link href='/' className='hover:underline flex flex-row gap-2 items-center justify-center'>
                 <Image src='/logo_red.svg' alt='logo' width={50} height={50} />
                 <h1 className=''>DeepC</h1>

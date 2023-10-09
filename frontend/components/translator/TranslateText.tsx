@@ -14,7 +14,7 @@ export default function TranslateText() {
                 'Content-Type': 'application/json'
             }
         })
-        setTranslation(await response.text())
+        setTranslation(await response.json())
     }
     return (
         <div className="h-80 w-[clamp(500px,90vw,1200px)] rounded-md border-gray-300 border-[1px] bg">
