@@ -47,9 +47,13 @@ export default function TranslateText() {
                 <textarea className='w-full h-full active:border-p-3 resize-none p-4' value={translation} onChange={(e) => { setTranslation(e.target.value), console.log(translation) }} />
             </div>
             <div className='w-full flex justify-center py-2'>
-                <button
-                    className=' bg-p-3 py-2 px-4 rounded-md text-white hover:bg-p-5 trans'
-                    onClick={() => handleTranslate(text, "zh")}>Translate</button>
+                {!chinese ?
+                    <button
+                        className=' bg-p-3 py-2 px-4 rounded-md text-white hover:bg-p-5 trans'
+                        onClick={() => handleTranslate(text, "zh")}>Translate</button> :
+                    <button
+                        className=' bg-p-3 py-2 px-4 rounded-md text-white hover:bg-p-5 trans'
+                        onClick={() => handleTranslate(text, "en")}>Translate</button>}
             </div>
         </div>
     )
